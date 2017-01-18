@@ -1,0 +1,275 @@
+.icon-liebiao{
+    font-size: 30px;
+    position: relative;
+
+}
+.icon-liebiao ul{
+    position: absolute;
+    top:60px;
+    left:-40px;
+    width: 110px;
+    transition: all 1s ease;
+    display: none;
+}
+.icon-liebiao li a{
+    display: block;
+    width: 110px;
+    height:50px;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 22px;
+    background: #333;
+    transition: transform 0.5s ease;
+}
+.site-header{
+    position: fixed;
+    top:0;left:0;
+    background:rgb(0,0,0);
+    z-index: 2000;
+    width: 100%;
+    padding:20px;
+}
+.site-top img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    /*border: 5px solid #fff;*/
+    margin:80px;
+
+}
+.ff{
+    width: 100%;
+    height:96px;
+    position: absolute;
+    bottom:0;
+}
+.site-brand{
+    display: none;
+}
+.sntop{
+    height:30px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sntop li{
+   float: left;
+    padding:0 10px;
+    /*display:flex;*/
+}
+.sntop li a{
+    float: left;
+    color: #fff;
+    font-size: 22px;
+}
+.fp-tableCell {
+    width: 800px;
+    position: relative;
+    top:0;
+    left:0;right:0;
+    z-index:20;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.top {
+    margin-top: 30px;
+    height: 20%;
+}
+.top .mini {
+    height: 20px;
+}
+.top .mini span:nth-of-type(1) {
+    margin-left: 36%;
+}
+.top .mini span {
+    margin-top: 9px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    width: 7%;
+    float: left;
+}
+.top .mini .one {
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    width: 14%;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+}
+.top .two {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 40px;
+    font-family: 微软雅黑;
+}
+.fp-tableCell .message {
+    height: 206px;
+    width: 656px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.fp-tableCell .message .face_img {
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fff;
+    float: left;
+    margin-right: 50px;
+}
+.fp-tableCell .message .face_img .xianshi {
+    display: block;
+}
+.fp-tableCell .message .face_img img {
+    position: absolute;
+    height: 100%;
+    display: none;
+}
+.fp-tableCell .message ul {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    float: left;
+    border-bottom: 2px solid #696969;
+    border-top: 2px solid #696969;
+}
+.fp-tableCell .message ul li:first-child{
+    background-color: #696969;
+}
+.fp-tableCell .message ul li {
+    border-bottom: 2px solid #696969;
+    width: 100px;
+    height: 30px;
+    float: left;
+    text-align: center;
+}
+.fp-tableCell .message ul li a {
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-weight: 400;
+}
+.fp-tableCell .message ul li span{
+    position: absolute;
+    left: 0;right: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+}
+.skill{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    z-index: 200;
+}
+.scene{
+    width: 70%;height:150px;
+    border: 1px solid #fff;
+    position: absolute;
+    top:80px;bottom:0;right:0;left:0;
+    margin:auto;
+    perspective:1500px;
+}
+.ball{
+    position:absolute;
+    left:0;top:0;width:100%;height:100%;
+    transform-style: preserve-3d;
+}
+.ball div{
+    width:200px;
+    height:100px;
+    position:absolute;
+    top:0;bottom:0;
+    left:0;right:0;
+    margin:auto;
+    text-align: center;
+    line-height: 100px;
+}
+.ball div:nth-child(2n){
+    background:linear-gradient(#6E6,#6BE);
+}
+.ball div:nth-child(2n-1){
+    background:linear-gradient(#6BE,#6E6);
+}
+.list{
+    position:absolute;
+    left:0;top:150px;width:100%;height:100%;
+    transform-style: preserve-3d;
+}
+.list div{
+    width:80px;
+    height:80px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+}
+.list div:hover{
+    background: #fff;
+    color: #666;
+}
+.list div:first-child{
+    margin-left: 4px;
+}
+.list div:last-child{
+    margin-right: 0;
+}
+.contact{
+    vertical-align: middle;
+    width: 100%;
+    height:600px;
+    position: relative;
+    left:0;right:0;
+    z-index:20;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    padding-top: 50px;
+
+}
+.contact h1 {
+    font-family: 微软雅黑;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -10px;
+}
+.contact .two_mici {
+    width: 700px;
+    height: 350px;
+    margin: 40px auto 30px;
+}
+.contact .two_mici img:nth-of-type(1) {
+    display: block;
+    float: left;
+    margin-right: 100px;
+}
+.contact a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-family: 微软雅黑;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    width: 900px;
+    text-align: center;
+    margin: 0px auto;
+}
+.contact p{
+    text-align: center;
+
+}
