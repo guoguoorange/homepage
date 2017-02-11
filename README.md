@@ -1,2 +1,2 @@
 # homepage
-##url：https://github.com/guoguoorange/homepage/index.html
+##url：https://github.com/guoguoorange/homepage/
